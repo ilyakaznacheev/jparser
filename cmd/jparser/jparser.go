@@ -8,7 +8,7 @@ import (
 
 func main() {
 	// create new server instance
-	s := jparser.NewServer(1)
+	s := jparser.NewServer(10)
 	// run server (it handles keyboard interrupt by default)
 	log.Fatal(s.Start())
 }
